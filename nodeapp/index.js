@@ -5,7 +5,7 @@ var app = express();
 app.get("/", function (req, res) {
   res.send('{ "response": "Hello, Welcome to Adomic Arts samin" }');
 });
-
+//get res
 app.get("/will", function (req, res) {
   res.send('{ "response": "Hello World" }');
 });
