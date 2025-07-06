@@ -1,6 +1,7 @@
 var express = require("express");
 var app = express();
 
+// get response
 app.get("/", function (req, res) {
   res.send('{ "response": "Hello, Welcome to Adomic Arts samin" }');
 });
